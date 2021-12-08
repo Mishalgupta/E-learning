@@ -120,7 +120,7 @@ input {
   position: absolute;
   top: 0px;
   bottom: 0px;
-  background: #ea5252;
+  background: #ff9900;
   border-radius: 5px;
   animation-name: LoaderLines;
   animation-duration: 2s;

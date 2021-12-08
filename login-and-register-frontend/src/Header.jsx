@@ -13,10 +13,7 @@ const Header = () => {
                                 Online Learning Made <br /> Easy For You.
                             </h1>
                             <p className="main-hero-para">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et,
-                                quia quis? Ipsa officia ad deserunt voluptate quam, nisi odio
-                                officiis tempora recusandae voluptate quam, nisi odio officiis
-                                tempora recusandae
+                            YIP(Youth Information Portal ) is a platform that deals with enhancing youth in vocational sector by providing them the skills set they need and responsibly meeting the demands for enhanced working.
                             </p>
                         </div>
                         {/*  --------------- main header right side--------------  */}

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './index.css';
+import logo from './images/logo.png'
 import { NavLink } from "react-router-dom";
 const Navbar = ({ updateUser }) => {
     const [show, setShow] = useState(false);
@@ -10,7 +11,7 @@ const Navbar = ({ updateUser }) => {
                 <nav class="navbar navbar-expand-lg navbar-light ">
                     <div class="container">
                         <NavLink class="navbar-brand" to="/">
-                            E-Learn
+                            <img src={logo} className="logo-style" />YIP
                         </NavLink>
                         <button
                             class="navbar-toggler"

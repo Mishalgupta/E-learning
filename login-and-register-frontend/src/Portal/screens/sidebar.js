@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../ui/logo-coral.svg";
+import logo from '../../images/logo.png';
 
 function Sidebar() {
   const [nav, setNav] = useState([
@@ -35,6 +35,9 @@ function Sidebar() {
       <a href="#" className="logo bl">
         <img src={logo} className="bl" />
       </a>
+      <h1 style={{ marginLeft: "75px", marginTop: "-3%", fontSize: "270%", fontWeight: "bold" }}>
+        YIP
+      </h1>
 
       <ul className="nav">{navigation}</ul>
 

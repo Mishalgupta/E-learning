@@ -143,13 +143,13 @@ function HomePage() {
   }
   return (
     <div className="home-page rel">
-      {/**Tutors Live Now */}
+      {/* *Tutors Live Now
       <div className="section rel">
         <h2 className="title s24 fontb">
           Streaming <span className="fontn">Now</span>
         </h2>
         <div className="tutors rel flex">{tutorList}</div>
-      </div>
+      </div> */}
 
       {/**Popular Courses */}
       <div className="section section-b rel">

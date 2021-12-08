@@ -49,6 +49,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 2rem;
 }
 
+.logo-style {
+  height: 60px;
+  width: 60px;
+  margin-right:12px ;
+ }
+
 .navbar li a {
   color: white !important;
   font-size: 1.7rem;
