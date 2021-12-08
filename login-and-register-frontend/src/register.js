@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import axios from "axios"
 import './register.css'
+import img from './images/istockphoto-1299975932-170667a.jpg'
 import { useHistory, NavLink } from "react-router-dom"
 
 const Register = () => {
@@ -52,7 +53,7 @@ const Register = () => {
                                     </div>
                                 </td>
                                 <td rowspan="4s">
-                                    <img src="https://drive.google.com/uc?export=view&id=1sjtwWDxx05eMyteDmDFGT5lJ7whJF-We" alt="Register Logo" id="image1" style={{ height: "250px", textAlign: "right" }} />
+                                    <img src={img} alt="Register Logo" id="image1" style={{ height: "250px", textAlign: "right" }} />
                                 </td>
                             </tr>
                             <tr>

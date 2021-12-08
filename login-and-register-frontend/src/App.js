@@ -1,6 +1,7 @@
 import Homepage from "./homepage"
 import Login from "./login"
 import './index.css';
+import App1 from './Portal/App1';
 import Register from "./register"
 import Error from "./Pages/Error";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -27,7 +28,7 @@ function App() {
           <Route exact path="/" component={Homepage}></Route>
           <Route path="/error">
             {
-              user && user._id ? <Error updateUser={updateUser} /> : <Login updateUser={updateUser} />
+              user && user._id ? <App1 updateUser={updateUser} /> : <Login updateUser={updateUser} />
             }
           </Route>
           <Route exact path="/about" component={About}></Route>
