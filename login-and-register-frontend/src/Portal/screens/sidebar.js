@@ -3,10 +3,10 @@ import logo from '../../images/logo.png';
 
 function Sidebar() {
   const [nav, setNav] = useState([
-    { label: "Home", slug: "/", icon: "icon-home" },
-    { label: "Discover", slug: "discover", icon: "icon-ul" },
-    { label: "Categories", slug: "cates", icon: "icon-tag" },
-    { label: "My Courses", slug: "my-courses", icon: "icon-briefcase" },
+    // { label: "", slug: "/portal", icon: "icon-home" },
+    { label: "Discover", slug: "/portal", icon: "icon-ul" },
+    { label: "Categories", slug: "/portal", icon: "icon-tag" },
+    { label: "My Courses", slug: "/portal", icon: "icon-briefcase" },
   ]);
   const [currentPage, setCurrentPage] = useState("/");
   var navigation = [];
@@ -32,7 +32,7 @@ function Sidebar() {
   }
   return (
     <div className="sidebar rel">
-      <a href="#" className="logo bl">
+      <a href="/portal" className="logo bl">
         <img src={logo} className="bl" />
       </a>
       <h1 style={{ marginLeft: "75px", marginTop: "-3%", fontSize: "270%", fontWeight: "bold" }}>
@@ -45,7 +45,7 @@ function Sidebar() {
         <div className="icon-lamp-bright cfff s24 ico" />
         <div className="lbl s15 fontb c333">
           Updated Courses
-          <h2 className="author s13 c777">by Kamran Wajdani</h2>
+          <h2 className="author s13 c777">by YIP</h2>
         </div>
       </div>
 

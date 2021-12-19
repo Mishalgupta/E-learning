@@ -26,7 +26,7 @@ const Login = ({ updateUser }) => {
             .then(res => {
                 alert(res.data.message)
                 updateUser(res.data.user)
-                history.push("/error")
+                history.push("/portal")
             })
     }
 

@@ -3,7 +3,7 @@ import Course1 from "../ui/course-1.png";
 import Course2 from "../ui/course-2.jpg";
 function HomePage() {
   useEffect(() => {
-    document.title = "Udemy";
+    document.title = "Youth info portal";
   });
 
   const [popularCourse, setPopularCourse] = useState([

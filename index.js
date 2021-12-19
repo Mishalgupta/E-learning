@@ -7,7 +7,7 @@ app.use(express.json())
 app.use(express.urlencoded())
 app.use(cors())
 
-mongoose.connect("mongodb+srv://mishal2001:M2001$upta@cluster0.7muif.mongodb.net/E-learn_data?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://youthinfo:youthinfo@cluster0.4oy9f.mongodb.net/youth-info?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true,
